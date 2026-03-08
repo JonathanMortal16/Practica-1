@@ -11,7 +11,7 @@ except ImportError:
 def prim_mst_con_pasos(nodos, edges, start=0):
     """
     nodos: lista de secciones del súper (strings)
-    edges: lista de aristas (u, v, w) con u,v índices y w "distancia" (pasos/metros/min)
+    edges: lista de aristas (u, v, w) con u,v índices y w "distancia" (pasoss/metros/min)
     start: índice de nodo inicial (ej. Entrada)
     """
     INF = math.inf
